@@ -1,0 +1,35 @@
+/* General Body Styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fce4ec;
+    text-align: center;
+    color: #ba68c8;
+    padding: 20px;
+}
+
+/* Canvas Styling */
+canvas {
+    border: 5px solid #f8bbd0;
+    border-radius: 20px;
+    background-color: #f3e5f5;
+    box-shadow: 0 0 20px #ce93d8;
+    margin: 20px auto;
+}
+
+/* Button Styling */
+button {
+    background-color: #ba68c8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ba68c8;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ab47bc;
+    box-shadow: 0 0 20px #ab47bc;
+}
